@@ -1,15 +1,17 @@
 package com.applitools.quickstarts;
 
-import com.applitools.eyes.*;
-import com.applitools.eyes.selenium.Configuration;
+import com.applitools.eyes.BatchInfo;
+import com.applitools.eyes.EyesRunner;
+import com.applitools.eyes.RectangleSize;
+import com.applitools.eyes.TestResultsSummary;
 import com.applitools.eyes.selenium.ClassicRunner;
+import com.applitools.eyes.selenium.Configuration;
 import com.applitools.eyes.selenium.Eyes;
 import com.applitools.eyes.selenium.fluent.Target;
-
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.junit.jupiter.api.Test;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class BasicDemo {
